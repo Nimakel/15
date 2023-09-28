@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="buttonSettingStyle">
+        <item name="android:layout_width">@dimen/button_setting_size</item>
+        <item name="android:layout_height">@dimen/button_setting_size</item>
+    </style>
+
+    <style name="gridButtonGameStyle">
+        <item name="android:layout_width">@dimen/button_game_size</item>
+        <item name="android:layout_height">@dimen/button_game_size</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <style name="LargeText">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="textPuzzleStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/chambray</item>
+        <item name="android:textSize">@dimen/fifteenth</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginBottom">1dp</item>
+        <item name="android:fontFamily">@font/antic_regular</item>
+    </style>
+
+    <style name="textGameStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginBottom">1dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:fontFamily">@font/antic_regular</item>
+    </style>
+
+    <style name="menu">
+        <item name="android:orientation">vertical </item>
+        <item name="android:layout_width">400dp </item>
+        <item name="android:layout_height">150dp </item>
+    </style>
+    
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>
